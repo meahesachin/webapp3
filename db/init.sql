@@ -1,7 +1,7 @@
 CREATE DATABASE personData;
 use personData;
 
-CREATE TABLE IF NOT EXISTS biostats (
+CREATE TABLE IF NOT EXISTS tblPeopleImport (
  `id` int AUTO_INCREMENT,
  `Name` VARCHAR(8) CHARACTER SET utf8,
  `Sex` VARCHAR(10) CHARACTER SET utf8,
