@@ -3,28 +3,29 @@
 <form action="/edit/{{person.id}}" method="post">
     <div class="row">
         <div class="col">
-            <label for="Name">person Name</label>
+            <label for="Name">Person Name</label>
             <input id="Name" type="text" class="form-control" placeholder="person Name" name="Name" value="{{person.Name}}">
         </div>
         <div class="col">
-            <label for="Weight">person Abbreviation</label>
-            <input id="Weight" type="text" class="form-control" placeholder="person Abbreviation"
-                   name="Weight" value="{{person.Weight}}">
-        </div>
-        <div class="col">
-            <label for="Height">person Country</label>
-            <input id="Height" type="text" class="form-control" placeholder="person Country" name="Height" value="{{person.Height}}">
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col">
-            <label for="Sex">person Latitude</label>
+            <label for="Sex">Person Sex</label>
             <input id="Sex" type="text" class="form-control" placeholder="person Latitude" name="Sex" value="{{person.Sex}}">
         </div>
         <div class="col">
-            <label for="Age">person Longitude</label>
+            <label for="Age">Person Age</label>
             <input id="Age" type="text" class="form-control" placeholder="person Longitude" name="Age" value="{{person.Age}}">
+        </div>
+
+    </div>
+
+    <div class="row">
+       <div class="col">
+            <label for="Height">Person Height</label>
+            <input id="Height" type="text" class="form-control" placeholder="person Country" name="Height" value="{{person.Height}}">
+        </div>
+        <div class="col">
+            <label for="Weight">Person Weight</label>
+            <input id="Weight" type="text" class="form-control" placeholder="person Abbreviation"
+                   name="Weight" value="{{person.Weight}}">
         </div>
     </div>
     <button type="submit" class="btn btn-success">Save</button>
