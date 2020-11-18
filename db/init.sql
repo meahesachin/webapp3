@@ -7,9 +7,10 @@ CREATE TABLE IF NOT EXISTS tblPeopleImport (
  `Sex` VARCHAR(10) CHARACTER SET utf8,
  `Age` INT,
  `Height` INT,
- `Weight` INT
+ `Weight` INT,
+ PRIMARY KEY (`id`)
 );
-INSERT INTO biostats VALUES
+INSERT INTO tblPeopleImport (Name, Sex, Age, Height, Weight) VALUES
      ('Alex','M',41, 74,170),
      ('Bert','M',42, 68,166),
      ('Carl','M',32, 70,155),
